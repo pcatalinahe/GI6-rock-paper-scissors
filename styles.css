@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(../images/gladiators.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    /* background-position: center; */
+}
+
+.title {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: lighter;
+    background-color: rgba(240, 248, 255, 0.561);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding: 2%;
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.who-wins {    
+    background-color: rgba(240, 248, 255, 0.561);
+    border-radius: 5%;
+    backdrop-filter: blur(2px);
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+#players{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    background-color: rgba(240, 248, 255, 0.561);
+    border-radius: 5%;
+    /* margin-left: 22%; */
+    margin-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 5%;
+    backdrop-filter: blur(2px);
+    width: 190px;
+    height: 206px;
+}
+
+.text-scores {
+    margin-top: 10%;
+    margin-bottom: 0px;
+}
+
+#player-score{
+    margin: 0;
+    padding: 5%;
+}
+
+#computer-score{
+    margin: 0;
+    padding: 5%;
+}
+
+.user-inputs {
+    background-color: rgba(240, 248, 255, 0.561);
+    backdrop-filter: blur(2px);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    font-size: 25px;
+}
+
+#rock-btn {
+    background-color: rgba(255, 0, 0, 0.535);
+    padding-top: 3%;
+}
+
+#paper-btn {
+    margin-top: 3%;
+    padding-top: 3%;
+    background-color: rgba(255, 0, 0, 0.535);
+}
+/* when you hover over buttons it says the name of the item */
+#scissors-btn {
+    margin-top: 3%;
+    padding-top: 3%;
+    background-color: rgba(255, 0, 0, 0.535);
+}
+
+footer {
+    background-color: rgba(240, 248, 255, 0.561);
+    backdrop-filter: blur(2px);
+    margin-top: 220px; /* 8% */
+    margin-left: 86%;
+    margin-right: 3%;
+    padding: auto;
+}
